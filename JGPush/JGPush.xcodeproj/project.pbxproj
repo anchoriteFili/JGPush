@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6C777331FCC17C10048837D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E628941FCC177E00612C4C /* SystemConfiguration.framework */; };
+		D6C777371FCC17DD0048837D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C777361FCC17CB0048837D /* CoreGraphics.framework */; };
+		D6C777391FCC17F10048837D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C777381FCC17EC0048837D /* Foundation.framework */; };
+		D6C7773B1FCC18030048837D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C7773A1FCC18000048837D /* UIKit.framework */; };
+		D6C7773D1FCC18130048837D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C7773C1FCC18100048837D /* Security.framework */; };
+		D6C7773F1FCC181E0048837D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C7773E1FCC181D0048837D /* libz.tbd */; };
+		D6C777411FCC18620048837D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C777401FCC185E0048837D /* UserNotifications.framework */; };
+		D6C777431FCC186F0048837D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C777421FCC186E0048837D /* libresolv.tbd */; };
 		D6E627F81FCC0C1A00612C4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E627F71FCC0C1A00612C4C /* AppDelegate.m */; };
 		D6E627FB1FCC0C1A00612C4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E627FA1FCC0C1A00612C4C /* ViewController.m */; };
 		D6E627FE1FCC0C1A00612C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E627FC1FCC0C1A00612C4C /* Main.storyboard */; };
@@ -50,6 +58,8 @@
 		D6E628871FCC169700612C4C /* jcore-ios-1.1.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6285E1FCC169700612C4C /* jcore-ios-1.1.6.a */; };
 		D6E628881FCC169700612C4C /* jpush-extension-ios-1.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6285F1FCC169700612C4C /* jpush-extension-ios-1.0.0.a */; };
 		D6E628891FCC169700612C4C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6E628601FCC169700612C4C /* README.txt */; };
+		D6E6288F1FCC176300612C4C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6288B1FCC170B00612C4C /* CFNetwork.framework */; };
+		D6E628921FCC176D00612C4C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6288C1FCC171800612C4C /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +94,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D622F9951FCC19C1009DCA48 /* JGPush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JGPush.entitlements; sourceTree = "<group>"; };
+		D6C777361FCC17CB0048837D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6C777381FCC17EC0048837D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6C7773A1FCC18000048837D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6C7773C1FCC18100048837D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D6C7773E1FCC181D0048837D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D6C777401FCC185E0048837D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		D6C777421FCC186E0048837D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		D6E627F31FCC0C1A00612C4C /* JGPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E627F61FCC0C1A00612C4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6E627F71FCC0C1A00612C4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -147,6 +165,11 @@
 		D6E6285E1FCC169700612C4C /* jcore-ios-1.1.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.6.a"; sourceTree = "<group>"; };
 		D6E6285F1FCC169700612C4C /* jpush-extension-ios-1.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.0.0.a"; sourceTree = "<group>"; };
 		D6E628601FCC169700612C4C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		D6E6288B1FCC170B00612C4C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D6E6288C1FCC171800612C4C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D6E6288D1FCC173100612C4C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D6E628931FCC177500612C4C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D6E628941FCC177E00612C4C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +177,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C777411FCC18620048837D /* UserNotifications.framework in Frameworks */,
+				D6C7773D1FCC18130048837D /* Security.framework in Frameworks */,
+				D6C7773F1FCC181E0048837D /* libz.tbd in Frameworks */,
+				D6C7773B1FCC18030048837D /* UIKit.framework in Frameworks */,
+				D6C777391FCC17F10048837D /* Foundation.framework in Frameworks */,
+				D6C777431FCC186F0048837D /* libresolv.tbd in Frameworks */,
+				D6C777371FCC17DD0048837D /* CoreGraphics.framework in Frameworks */,
+				D6C777331FCC17C10048837D /* SystemConfiguration.framework in Frameworks */,
+				D6E628921FCC176D00612C4C /* CoreFoundation.framework in Frameworks */,
+				D6E6288F1FCC176300612C4C /* CFNetwork.framework in Frameworks */,
 				D6E628881FCC169700612C4C /* jpush-extension-ios-1.0.0.a in Frameworks */,
 				D6E628871FCC169700612C4C /* jcore-ios-1.1.6.a in Frameworks */,
 				D6E628861FCC169700612C4C /* jpush-ios-3.0.7.a in Frameworks */,
@@ -184,6 +217,7 @@
 				D6E6280E1FCC0C1A00612C4C /* JGPushTests */,
 				D6E628191FCC0C1A00612C4C /* JGPushUITests */,
 				D6E627F41FCC0C1A00612C4C /* Products */,
+				D6E6288A1FCC170B00612C4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,6 +234,7 @@
 		D6E627F51FCC0C1A00612C4C /* JGPush */ = {
 			isa = PBXGroup;
 			children = (
+				D622F9951FCC19C1009DCA48 /* JGPush.entitlements */,
 				D6E628281FCC169700612C4C /* jpush-ios-3.0.7-release */,
 				D6E627F61FCC0C1A00612C4C /* AppDelegate.h */,
 				D6E627F71FCC0C1A00612C4C /* AppDelegate.m */,
@@ -343,6 +378,25 @@
 			path = Lib;
 			sourceTree = "<group>";
 		};
+		D6E6288A1FCC170B00612C4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6C777421FCC186E0048837D /* libresolv.tbd */,
+				D6C777401FCC185E0048837D /* UserNotifications.framework */,
+				D6C7773E1FCC181D0048837D /* libz.tbd */,
+				D6C7773C1FCC18100048837D /* Security.framework */,
+				D6C7773A1FCC18000048837D /* UIKit.framework */,
+				D6C777381FCC17EC0048837D /* Foundation.framework */,
+				D6C777361FCC17CB0048837D /* CoreGraphics.framework */,
+				D6E628941FCC177E00612C4C /* SystemConfiguration.framework */,
+				D6E628931FCC177500612C4C /* CoreTelephony.framework */,
+				D6E6288D1FCC173100612C4C /* Accelerate.framework */,
+				D6E6288C1FCC171800612C4C /* CoreFoundation.framework */,
+				D6E6288B1FCC170B00612C4C /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -411,6 +465,11 @@
 					D6E627F21FCC0C1A00612C4C = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					D6E6280A1FCC0C1A00612C4C = {
 						CreatedOnToolsVersion = 9.1;
@@ -704,6 +763,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JGPush/JGPush.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM2EX5ALF4;
 				INFOPLIST_FILE = JGPush/Info.plist;
@@ -722,6 +782,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JGPush/JGPush.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM2EX5ALF4;
 				INFOPLIST_FILE = JGPush/Info.plist;
