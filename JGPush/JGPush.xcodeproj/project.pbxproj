@@ -15,6 +15,41 @@
 		D6E628061FCC0C1A00612C4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E628051FCC0C1A00612C4C /* main.m */; };
 		D6E628101FCC0C1A00612C4C /* JGPushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E6280F1FCC0C1A00612C4C /* JGPushTests.m */; };
 		D6E6281B1FCC0C1A00612C4C /* JGPushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E6281A1FCC0C1A00612C4C /* JGPushUITests.m */; };
+		D6E628671FCC169700612C4C /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = D6E6282A1FCC169700612C4C /* sound.caf */; };
+		D6E628681FCC169700612C4C /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E6282C1FCC169700612C4C /* NotificationService.m */; };
+		D6E628691FCC169700612C4C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6E6282F1FCC169700612C4C /* Info.plist */; };
+		D6E6286A1FCC169700612C4C /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = D6E628331FCC169700612C4C /* Readme */; };
+		D6E6286B1FCC169700612C4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6E628361FCC169700612C4C /* InfoPlist.strings */; };
+		D6E6286C1FCC169700612C4C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E628391FCC169700612C4C /* RootViewController.m */; };
+		D6E6286D1FCC169700612C4C /* setLocalNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E6283B1FCC169700612C4C /* setLocalNotificationViewController.xib */; };
+		D6E6286E1FCC169700612C4C /* SendBadgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E6283C1FCC169700612C4C /* SendBadgeViewController.m */; };
+		D6E6286F1FCC169700612C4C /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6E6283E1FCC169700612C4C /* PushConfig.plist */; };
+		D6E628701FCC169700612C4C /* JpushTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E6283F1FCC169700612C4C /* JpushTabBarViewController.xib */; };
+		D6E628711FCC169700612C4C /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E628401FCC169700612C4C /* RootViewController.xib */; };
+		D6E628721FCC169700612C4C /* PushTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6E628411FCC169700612C4C /* PushTest-Info.plist */; };
+		D6E628731FCC169700612C4C /* SendBadgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E628421FCC169700612C4C /* SendBadgeViewController.xib */; };
+		D6E628741FCC169700612C4C /* setLocalNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E628431FCC169700612C4C /* setLocalNotificationViewController.m */; };
+		D6E628751FCC169700612C4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E628441FCC169700612C4C /* main.m */; };
+		D6E628761FCC169700612C4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E628451FCC169700612C4C /* Images.xcassets */; };
+		D6E628771FCC169700612C4C /* SetTagsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E628461FCC169700612C4C /* SetTagsViewController.xib */; };
+		D6E628781FCC169700612C4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E628471FCC169700612C4C /* AppDelegate.m */; };
+		D6E628791FCC169700612C4C /* index.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6284A1FCC169700612C4C /* index.png */; };
+		D6E6287A1FCC169700612C4C /* setTags.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6284B1FCC169700612C4C /* setTags.png */; };
+		D6E6287B1FCC169700612C4C /* localNotification.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6284C1FCC169700612C4C /* localNotification.png */; };
+		D6E6287C1FCC169700612C4C /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6284D1FCC169700612C4C /* report.png */; };
+		D6E6287D1FCC169700612C4C /* SetTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E6284E1FCC169700612C4C /* SetTagsViewController.m */; };
+		D6E6287E1FCC169700612C4C /* iphone1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E628501FCC169700612C4C /* iphone1x.png */; };
+		D6E6287F1FCC169700612C4C /* ipadmini1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E628511FCC169700612C4C /* ipadmini1x.png */; };
+		D6E628801FCC169700612C4C /* ipad2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E628521FCC169700612C4C /* ipad2x.png */; };
+		D6E628811FCC169700612C4C /* ipad1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E628531FCC169700612C4C /* ipad1x.png */; };
+		D6E628821FCC169700612C4C /* ios7.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E628541FCC169700612C4C /* ios7.png */; };
+		D6E628831FCC169700612C4C /* ipadmini2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E628551FCC169700612C4C /* ipadmini2x.png */; };
+		D6E628841FCC169700612C4C /* iphone2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E628561FCC169700612C4C /* iphone2x.png */; };
+		D6E628851FCC169700612C4C /* CrashLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E628591FCC169700612C4C /* CrashLocationViewController.xib */; };
+		D6E628861FCC169700612C4C /* jpush-ios-3.0.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6285D1FCC169700612C4C /* jpush-ios-3.0.7.a */; };
+		D6E628871FCC169700612C4C /* jcore-ios-1.1.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6285E1FCC169700612C4C /* jcore-ios-1.1.6.a */; };
+		D6E628881FCC169700612C4C /* jpush-extension-ios-1.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6285F1FCC169700612C4C /* jpush-extension-ios-1.0.0.a */; };
+		D6E628891FCC169700612C4C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6E628601FCC169700612C4C /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +66,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = D6E627F21FCC0C1A00612C4C;
 			remoteInfo = JGPush;
+		};
+		D6E628631FCC169700612C4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E628301FCC169700612C4C /* PushTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD2DE94B160AB11F0092BF6A;
+			remoteInfo = PushTest;
+		};
+		D6E628651FCC169700612C4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E628301FCC169700612C4C /* PushTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 59D843FD1D47410A0043E622;
+			remoteInfo = NotificationServiceTest;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +100,53 @@
 		D6E628161FCC0C1A00612C4C /* JGPushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGPushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E6281A1FCC0C1A00612C4C /* JGPushUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGPushUITests.m; sourceTree = "<group>"; };
 		D6E6281C1FCC0C1A00612C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E6282A1FCC169700612C4C /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
+		D6E6282C1FCC169700612C4C /* NotificationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		D6E6282D1FCC169700612C4C /* NotificationServiceTest.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = NotificationServiceTest.entitlements; sourceTree = "<group>"; };
+		D6E6282E1FCC169700612C4C /* NotificationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		D6E6282F1FCC169700612C4C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E628301FCC169700612C4C /* PushTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PushTest.xcodeproj; sourceTree = "<group>"; };
+		D6E628331FCC169700612C4C /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		D6E628351FCC169700612C4C /* setLocalNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setLocalNotificationViewController.h; sourceTree = "<group>"; };
+		D6E628371FCC169700612C4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6E628381FCC169700612C4C /* PushTest.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = PushTest.entitlements; sourceTree = "<group>"; };
+		D6E628391FCC169700612C4C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D6E6283A1FCC169700612C4C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6E6283B1FCC169700612C4C /* setLocalNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = setLocalNotificationViewController.xib; sourceTree = "<group>"; };
+		D6E6283C1FCC169700612C4C /* SendBadgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendBadgeViewController.m; sourceTree = "<group>"; };
+		D6E6283D1FCC169700612C4C /* SetTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTagsViewController.h; sourceTree = "<group>"; };
+		D6E6283E1FCC169700612C4C /* PushConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushConfig.plist; sourceTree = "<group>"; };
+		D6E6283F1FCC169700612C4C /* JpushTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JpushTabBarViewController.xib; sourceTree = "<group>"; };
+		D6E628401FCC169700612C4C /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		D6E628411FCC169700612C4C /* PushTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PushTest-Info.plist"; sourceTree = "<group>"; };
+		D6E628421FCC169700612C4C /* SendBadgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendBadgeViewController.xib; sourceTree = "<group>"; };
+		D6E628431FCC169700612C4C /* setLocalNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setLocalNotificationViewController.m; sourceTree = "<group>"; };
+		D6E628441FCC169700612C4C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6E628451FCC169700612C4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6E628461FCC169700612C4C /* SetTagsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetTagsViewController.xib; sourceTree = "<group>"; };
+		D6E628471FCC169700612C4C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6E628481FCC169700612C4C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D6E6284A1FCC169700612C4C /* index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = index.png; sourceTree = "<group>"; };
+		D6E6284B1FCC169700612C4C /* setTags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setTags.png; sourceTree = "<group>"; };
+		D6E6284C1FCC169700612C4C /* localNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = localNotification.png; sourceTree = "<group>"; };
+		D6E6284D1FCC169700612C4C /* report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = report.png; sourceTree = "<group>"; };
+		D6E6284E1FCC169700612C4C /* SetTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTagsViewController.m; sourceTree = "<group>"; };
+		D6E628501FCC169700612C4C /* iphone1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone1x.png; sourceTree = "<group>"; };
+		D6E628511FCC169700612C4C /* ipadmini1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadmini1x.png; sourceTree = "<group>"; };
+		D6E628521FCC169700612C4C /* ipad2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad2x.png; sourceTree = "<group>"; };
+		D6E628531FCC169700612C4C /* ipad1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad1x.png; sourceTree = "<group>"; };
+		D6E628541FCC169700612C4C /* ios7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7.png; sourceTree = "<group>"; };
+		D6E628551FCC169700612C4C /* ipadmini2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadmini2x.png; sourceTree = "<group>"; };
+		D6E628561FCC169700612C4C /* iphone2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone2x.png; sourceTree = "<group>"; };
+		D6E628571FCC169700612C4C /* SendBadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendBadgeViewController.h; sourceTree = "<group>"; };
+		D6E628581FCC169700612C4C /* PushTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PushTest-Prefix.pch"; sourceTree = "<group>"; };
+		D6E628591FCC169700612C4C /* CrashLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrashLocationViewController.xib; sourceTree = "<group>"; };
+		D6E6285B1FCC169700612C4C /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
+		D6E6285C1FCC169700612C4C /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		D6E6285D1FCC169700612C4C /* jpush-ios-3.0.7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.7.a"; sourceTree = "<group>"; };
+		D6E6285E1FCC169700612C4C /* jcore-ios-1.1.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.6.a"; sourceTree = "<group>"; };
+		D6E6285F1FCC169700612C4C /* jpush-extension-ios-1.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.0.0.a"; sourceTree = "<group>"; };
+		D6E628601FCC169700612C4C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +154,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E628881FCC169700612C4C /* jpush-extension-ios-1.0.0.a in Frameworks */,
+				D6E628871FCC169700612C4C /* jcore-ios-1.1.6.a in Frameworks */,
+				D6E628861FCC169700612C4C /* jpush-ios-3.0.7.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +200,7 @@
 		D6E627F51FCC0C1A00612C4C /* JGPush */ = {
 			isa = PBXGroup;
 			children = (
+				D6E628281FCC169700612C4C /* jpush-ios-3.0.7-release */,
 				D6E627F61FCC0C1A00612C4C /* AppDelegate.h */,
 				D6E627F71FCC0C1A00612C4C /* AppDelegate.m */,
 				D6E627F91FCC0C1A00612C4C /* ViewController.h */,
@@ -130,6 +230,117 @@
 				D6E6281C1FCC0C1A00612C4C /* Info.plist */,
 			);
 			path = JGPushUITests;
+			sourceTree = "<group>";
+		};
+		D6E628281FCC169700612C4C /* jpush-ios-3.0.7-release */ = {
+			isa = PBXGroup;
+			children = (
+				D6E628291FCC169700612C4C /* demo */,
+				D6E6285A1FCC169700612C4C /* Lib */,
+				D6E628601FCC169700612C4C /* README.txt */,
+			);
+			path = "jpush-ios-3.0.7-release";
+			sourceTree = "<group>";
+		};
+		D6E628291FCC169700612C4C /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				D6E6282A1FCC169700612C4C /* sound.caf */,
+				D6E6282B1FCC169700612C4C /* NotificationServiceTest */,
+				D6E628301FCC169700612C4C /* PushTest.xcodeproj */,
+				D6E628331FCC169700612C4C /* Readme */,
+				D6E628341FCC169700612C4C /* PushTest */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		D6E6282B1FCC169700612C4C /* NotificationServiceTest */ = {
+			isa = PBXGroup;
+			children = (
+				D6E6282C1FCC169700612C4C /* NotificationService.m */,
+				D6E6282D1FCC169700612C4C /* NotificationServiceTest.entitlements */,
+				D6E6282E1FCC169700612C4C /* NotificationService.h */,
+				D6E6282F1FCC169700612C4C /* Info.plist */,
+			);
+			path = NotificationServiceTest;
+			sourceTree = "<group>";
+		};
+		D6E628311FCC169700612C4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E628641FCC169700612C4C /* PushTest.app */,
+				D6E628661FCC169700612C4C /* NotificationServiceTest.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E628341FCC169700612C4C /* PushTest */ = {
+			isa = PBXGroup;
+			children = (
+				D6E628351FCC169700612C4C /* setLocalNotificationViewController.h */,
+				D6E628361FCC169700612C4C /* InfoPlist.strings */,
+				D6E628381FCC169700612C4C /* PushTest.entitlements */,
+				D6E628391FCC169700612C4C /* RootViewController.m */,
+				D6E6283A1FCC169700612C4C /* AppDelegate.h */,
+				D6E6283B1FCC169700612C4C /* setLocalNotificationViewController.xib */,
+				D6E6283C1FCC169700612C4C /* SendBadgeViewController.m */,
+				D6E6283D1FCC169700612C4C /* SetTagsViewController.h */,
+				D6E6283E1FCC169700612C4C /* PushConfig.plist */,
+				D6E6283F1FCC169700612C4C /* JpushTabBarViewController.xib */,
+				D6E628401FCC169700612C4C /* RootViewController.xib */,
+				D6E628411FCC169700612C4C /* PushTest-Info.plist */,
+				D6E628421FCC169700612C4C /* SendBadgeViewController.xib */,
+				D6E628431FCC169700612C4C /* setLocalNotificationViewController.m */,
+				D6E628441FCC169700612C4C /* main.m */,
+				D6E628451FCC169700612C4C /* Images.xcassets */,
+				D6E628461FCC169700612C4C /* SetTagsViewController.xib */,
+				D6E628471FCC169700612C4C /* AppDelegate.m */,
+				D6E628481FCC169700612C4C /* RootViewController.h */,
+				D6E628491FCC169700612C4C /* tabBarImage */,
+				D6E6284E1FCC169700612C4C /* SetTagsViewController.m */,
+				D6E6284F1FCC169700612C4C /* icon */,
+				D6E628571FCC169700612C4C /* SendBadgeViewController.h */,
+				D6E628581FCC169700612C4C /* PushTest-Prefix.pch */,
+				D6E628591FCC169700612C4C /* CrashLocationViewController.xib */,
+			);
+			path = PushTest;
+			sourceTree = "<group>";
+		};
+		D6E628491FCC169700612C4C /* tabBarImage */ = {
+			isa = PBXGroup;
+			children = (
+				D6E6284A1FCC169700612C4C /* index.png */,
+				D6E6284B1FCC169700612C4C /* setTags.png */,
+				D6E6284C1FCC169700612C4C /* localNotification.png */,
+				D6E6284D1FCC169700612C4C /* report.png */,
+			);
+			path = tabBarImage;
+			sourceTree = "<group>";
+		};
+		D6E6284F1FCC169700612C4C /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				D6E628501FCC169700612C4C /* iphone1x.png */,
+				D6E628511FCC169700612C4C /* ipadmini1x.png */,
+				D6E628521FCC169700612C4C /* ipad2x.png */,
+				D6E628531FCC169700612C4C /* ipad1x.png */,
+				D6E628541FCC169700612C4C /* ios7.png */,
+				D6E628551FCC169700612C4C /* ipadmini2x.png */,
+				D6E628561FCC169700612C4C /* iphone2x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		D6E6285A1FCC169700612C4C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D6E6285B1FCC169700612C4C /* JPushNotificationExtensionService.h */,
+				D6E6285C1FCC169700612C4C /* JPUSHService.h */,
+				D6E6285D1FCC169700612C4C /* jpush-ios-3.0.7.a */,
+				D6E6285E1FCC169700612C4C /* jcore-ios-1.1.6.a */,
+				D6E6285F1FCC169700612C4C /* jpush-extension-ios-1.0.0.a */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +435,12 @@
 			mainGroup = D6E627EA1FCC0C1A00612C4C;
 			productRefGroup = D6E627F41FCC0C1A00612C4C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D6E628311FCC169700612C4C /* Products */;
+					ProjectRef = D6E628301FCC169700612C4C /* PushTest.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D6E627F21FCC0C1A00612C4C /* JGPush */,
@@ -233,14 +450,56 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		D6E628641FCC169700612C4C /* PushTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = PushTest.app;
+			remoteRef = D6E628631FCC169700612C4C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6E628661FCC169700612C4C /* NotificationServiceTest.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = NotificationServiceTest.appex;
+			remoteRef = D6E628651FCC169700612C4C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		D6E627F11FCC0C1A00612C4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E628851FCC169700612C4C /* CrashLocationViewController.xib in Resources */,
+				D6E6287A1FCC169700612C4C /* setTags.png in Resources */,
 				D6E628031FCC0C1A00612C4C /* LaunchScreen.storyboard in Resources */,
+				D6E6286F1FCC169700612C4C /* PushConfig.plist in Resources */,
+				D6E628811FCC169700612C4C /* ipad1x.png in Resources */,
+				D6E6286B1FCC169700612C4C /* InfoPlist.strings in Resources */,
+				D6E628821FCC169700612C4C /* ios7.png in Resources */,
 				D6E628001FCC0C1A00612C4C /* Assets.xcassets in Resources */,
+				D6E6287F1FCC169700612C4C /* ipadmini1x.png in Resources */,
+				D6E628791FCC169700612C4C /* index.png in Resources */,
+				D6E628671FCC169700612C4C /* sound.caf in Resources */,
+				D6E6286D1FCC169700612C4C /* setLocalNotificationViewController.xib in Resources */,
+				D6E6287B1FCC169700612C4C /* localNotification.png in Resources */,
+				D6E628721FCC169700612C4C /* PushTest-Info.plist in Resources */,
+				D6E628731FCC169700612C4C /* SendBadgeViewController.xib in Resources */,
+				D6E628691FCC169700612C4C /* Info.plist in Resources */,
+				D6E628761FCC169700612C4C /* Images.xcassets in Resources */,
+				D6E628841FCC169700612C4C /* iphone2x.png in Resources */,
+				D6E6287C1FCC169700612C4C /* report.png in Resources */,
+				D6E6286A1FCC169700612C4C /* Readme in Resources */,
+				D6E628831FCC169700612C4C /* ipadmini2x.png in Resources */,
+				D6E6287E1FCC169700612C4C /* iphone1x.png in Resources */,
+				D6E628711FCC169700612C4C /* RootViewController.xib in Resources */,
 				D6E627FE1FCC0C1A00612C4C /* Main.storyboard in Resources */,
+				D6E628801FCC169700612C4C /* ipad2x.png in Resources */,
+				D6E628771FCC169700612C4C /* SetTagsViewController.xib in Resources */,
+				D6E628891FCC169700612C4C /* README.txt in Resources */,
+				D6E628701FCC169700612C4C /* JpushTabBarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +524,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E628681FCC169700612C4C /* NotificationService.m in Sources */,
+				D6E628741FCC169700612C4C /* setLocalNotificationViewController.m in Sources */,
+				D6E628781FCC169700612C4C /* AppDelegate.m in Sources */,
 				D6E627FB1FCC0C1A00612C4C /* ViewController.m in Sources */,
 				D6E628061FCC0C1A00612C4C /* main.m in Sources */,
 				D6E627F81FCC0C1A00612C4C /* AppDelegate.m in Sources */,
+				D6E6286E1FCC169700612C4C /* SendBadgeViewController.m in Sources */,
+				D6E628751FCC169700612C4C /* main.m in Sources */,
+				D6E6287D1FCC169700612C4C /* SetTagsViewController.m in Sources */,
+				D6E6286C1FCC169700612C4C /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +583,14 @@
 				D6E628021FCC0C1A00612C4C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6E628361FCC169700612C4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E628371FCC169700612C4C /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -434,6 +708,10 @@
 				DEVELOPMENT_TEAM = GM2EX5ALF4;
 				INFOPLIST_FILE = JGPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JGPush/jpush-ios-3.0.7-release/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tekuijinfu.JGPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +726,10 @@
 				DEVELOPMENT_TEAM = GM2EX5ALF4;
 				INFOPLIST_FILE = JGPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JGPush/jpush-ios-3.0.7-release/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tekuijinfu.JGPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
