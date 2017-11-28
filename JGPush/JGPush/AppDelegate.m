@@ -26,6 +26,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    // 初始化极光推送
+    [self JGPushSetupWithApplication:application andOptions:launchOptions];
+    
+    return YES;
+}
+
+#pragma mark *************************** 极光推送 begin *****************************
+
+- (void)JGPushSetupWithApplication:(UIApplication *)application andOptions:(NSDictionary *)launchOptions {
     
     //Required
     //notice: 3.0.0及以后版本注册可以这样写，也可以继续用之前的注册方式
@@ -51,13 +60,6 @@
                           channel:@""
                  apsForProduction:1
             advertisingIdentifier:nil];
-//    [JPUSHService setupWithOption:launchOptions appKey:@"42727d5f4e9b75940b5c81e6" channel:@"" apsForProduction:1];
-    
-    
-    
-    
-    
-    return YES;
 }
 
 - (void)application:(UIApplication *)application
@@ -108,6 +110,8 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     // Required,For systems with less than or equal to iOS6
     [JPUSHService handleRemoteNotification:userInfo];
 }
+
+#pragma mark *************************** 极光推送 end *******************************
 
 
 

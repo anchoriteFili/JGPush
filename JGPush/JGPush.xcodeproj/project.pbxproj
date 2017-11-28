@@ -526,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = JGPush/JGPush.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM2EX5ALF4;
 				ENABLE_BITCODE = NO;
@@ -541,6 +542,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tekuaijinfu.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/JGPush/jpush-ios-3.0.7-release/Lib/jpush-ios-3.0.7.a\" \"$(SRCROOT)/JGPush/jpush-ios-3.0.7-release/Lib/jcore-ios-1.1.6.a\" \"$(SRCROOT)/JGPush/jpush-ios-3.0.7-release/Lib/jpush-extension-ios-1.0.0.a\"";
 			};
@@ -551,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = JGPush/JGPush.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM2EX5ALF4;
 				ENABLE_BITCODE = NO;
@@ -566,6 +569,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tekuaijinfu.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/JGPush/jpush-ios-3.0.7-release/Lib/jpush-ios-3.0.7.a\" \"$(SRCROOT)/JGPush/jpush-ios-3.0.7-release/Lib/jcore-ios-1.1.6.a\" \"$(SRCROOT)/JGPush/jpush-ios-3.0.7-release/Lib/jpush-extension-ios-1.0.0.a\"";
 			};
